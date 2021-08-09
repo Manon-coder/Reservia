@@ -1,0 +1,525 @@
+/* PAGE COMPLETE */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+    color: black;  
+}
+
+.site-content {
+    width: auto;
+}
+
+/* POLICE */
+
+html {
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+fieldset {
+    border: none;
+}
+
+/****** MOBILE ******/
+
+/* NAVBAR */
+
+.navbar a {
+    display: flex;
+    font-size: 1.2 rem;
+    font-weight: 500;
+}
+
+.logo {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    flex-wrap: wrap-reverse;
+}
+
+.hebergement-link {
+    color: #0065fc;
+    position: relative;
+    bottom: 50px;
+    margin-right: 5%;
+}
+
+.activity-link {
+    position: relative;
+    bottom: 50px;
+    margin-right: 5%;
+    color: #f2f2f2;
+}
+
+.suscribe-link {
+    position: relative;
+    bottom: 50px;
+    margin-right: 5%;
+    color: #0065fc;
+}
+
+.title_container {
+    margin: 35px 60px 0 5%;
+}
+
+.principal-title {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-left: 4%;
+}
+
+.second-title {
+    font-size: 1.1rem;
+    margin-left: 4%;
+}
+
+/* SURVOL ET APPARENCE LIENS*/
+
+.activity-link:hover {
+    border-top: solid 3px #0065fc;
+    color: #0065fc;
+}
+
+.suscribe-link:hover {
+    color: #0065fc;
+    border-bottom: solid 3px #0065fc;
+}
+
+.hebergement-link:hover {
+    border-bottom: solid 3px #0065fc;
+}
+
+/* BARRE DE RECHERCHE */
+
+.research-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 35px;
+    display: flex;
+}
+
+.pin-icone {
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 43px;
+    border-radius: 30% 0% 0% 30%;
+    display: flex;
+    font-size: large;
+}
+
+.pin-icone i {
+    margin: auto;
+    color: black;
+}
+
+.research-button_input_submit {
+    height: 55px;
+    width: 150px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 0% 10% 10% 0%;
+    background-color: #0065fc;
+    visibility: hidden;
+}
+
+.research-button_input {
+    height: 40px;
+    width: 250px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 10px;
+    border: solid 1px #f2f2f2;
+}
+
+.research-button_loupe {
+    background-color: #0065fc;
+    height: 40px;
+    width: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 290px;
+}
+
+.research-button_loupe i {
+    margin: auto;
+    color: #f2f2f2;
+    font-size: 1.3rem;
+}
+
+/* SECTION FILTRES*/
+
+.filters-container {
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filters-title {
+    font-size: 1.3rem;
+    position: relative;
+    margin-left: 7%;
+    margin-top: 7%;
+    margin-bottom: -6%;
+}
+
+.filter-item {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    top: 25px;
+    left: -7%;
+    transition: 0.3s;
+}
+
+.filter-item i {
+    font-size: medium;
+}
+
+.filter-input:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+    background-color: #0065fc;
+    color: #deebff;
+}
+
+.filter-icone {
+    background-color: #deebff;
+    height: 44px;
+    width: 47px;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    left: -4px;
+    top: 1px;
+}
+
+.filter-icone i {
+    color: #0065fc;
+}
+
+.filter-item-formulaire {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.filter-input {
+    height: 44px;
+    border: solid 1px #deebff;
+    border-radius: 20px;
+    padding-left: 55px;
+    font-weight: bold;
+}
+
+.eco input {
+    width: 155px;
+}
+
+.family input {
+    width: 129px;
+}
+
+.romantique input {
+    width: 155px;
+}
+
+.animaux input {
+    width: 190px;
+}
+
+.filter-icone i {
+    margin: auto;
+}
+
+.info-container {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    align-content: center;
+}
+
+.info {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 5%;
+    font-weight: 400;
+}
+
+.icone-info {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    border: solid 1px #deebff;
+    border-radius: 50%;
+}
+
+.icone-info i {
+    margin: auto;
+    font-size: 0.6rem;
+    color: #0065fc;
+}
+
+/*Apparence des notes cards*/
+
+.fas {
+    color: gray;
+}
+
+.blue-star i {
+    color: #0065fc;
+}
+
+/*ASIDE*/
+.card {
+    border-radius: 17px;
+    box-shadow: 1px 1px 7px #AAAAAA;
+}
+
+aside {
+    background-color: #f2f2f2;
+}
+
+.aside_title {
+    margin-left: 6%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aside_title h2 {
+    margin-top: 30px;
+}
+
+.aside_title i {
+    color: #000000;
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+
+.cards-aside-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards-aside {
+    display: flex;
+    background-color: #ffffff;
+    max-width: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 17px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 7px #AAAAAA;
+    transition: 0.3s;
+    flex: 1;
+}
+
+.cards-aside-body {
+    position: relative;
+    margin: 10px 10px 10px 10px;
+}
+
+.title-cards-aside {
+    font-size: 1rem;
+}
+
+.body-activity {
+    font-size: 1rem;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.price-aside {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+
+.note-aside {
+    position: absolute;
+    top: 70px;
+    display: flex;
+}
+
+.aside-thumb {
+    object-fit: cover;
+    height: 115px;
+    width: 128px;
+    padding: 5px;
+    border-radius: 17px;
+}
+
+.cards-aside:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgb(0, 0, 0, 0);
+}
+
+/*HEBERGEMENT*/
+
+.hebergement_title {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.hebergement_body {
+    margin-left: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hebergement_body_title {
+    font-size: 1rem;
+}
+
+.hebergement_cards_content {
+    background-color: #FFFFFF;
+}
+
+.hebergement_cards {
+    background-color: #FFFFFF;
+    max-width: 330px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    transition: 0.4s;
+}
+
+.hebergement_body_note {
+    display: flex;
+}
+
+.hebergement_body_price {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.hebergement-thumb {
+    object-fit: cover;
+    height: 115px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.hebergement_cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.more {
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.more:hover {
+    color: #0065fc;
+}
+
+/*Activités*/
+
+.activity_title {
+    background-color: #FFFFFF;
+}
+
+.cards_activity_content {
+    background-color: #FFFFFF;
+}
+#activity {
+    margin-top: 60px;
+}
+
+.ativity_title {
+    margin-left: 6%;
+    margin-bottom: 30px;
+}
+
+.activity_cards {
+    background-color: #ffffff;
+    max-width: 335px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 17px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px grey;
+    transition: 0.3s;
+}
+
+.activity_cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.activity-thumb {
+    object-fit: cover;
+    height: 135px;
+    width: 100%;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.footer_body {
+    margin-left: 5%;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.list-element {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.list-element a:hover {
+    color: #0065fc;
+}
+
+/* a revoir/
+@media all and (max-width: 80px) and (max-width: 1280px) {
+    .site-content {
+        max-width: 80px;
+        min-width: 80px;
+        display: grid;
+        grid-template-columns: 3% 60% 40% 30% 3%;
+        grid-template-areas: 
+        "header header header header header"
+        "search search search search search"
+        "filter filter filter filter filter"
+        "main   .    aside   ."
+        "footer footer footer footer footer"
+    }
+/* a voir*/ 
